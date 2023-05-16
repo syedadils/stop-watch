@@ -26,11 +26,17 @@ function timer() {
     function start() {
         interval = setInterval(timer,10)
         var start = document.getElementById('start').disabled = true;
+
+        var snd = new Audio('N56BNFY-click.mp3')//wav is also supported
+        snd.play();//plays the sound
     }
 
     function pause() {
         clearInterval(interval)
         var start = document.getElementById('start').disabled = false;
+
+        var snd = new Audio('N56BNFY-click.mp3')//wav is also supported
+        snd.play();//plays the sound
     }
 
     function reset() {
@@ -44,4 +50,9 @@ function timer() {
 
         var start = document.getElementById('start').disabled = false;
         pause();
+
+        var snd = new Audio('N56BNFY-click.mp3')//wav is also supported
+        snd.play();//plays the sound
+        
     }
+
