@@ -57,3 +57,47 @@ body{
     border-radius: 10px;
 }
 
+@media (max-width: 600px) {
+    .main{
+      width: 70%;
+      margin: 10%;
+      margin-left: 5%;
+      padding: 40px;
+    }
+
+    .container > h2{
+        margin: 20px;
+        padding: 10px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 393px) {
+    .main{
+      width: 70%;
+      margin: 40%;
+      margin-left: 2%;
+      padding: 50px;
+    }
+
+    .container > h2{
+        margin: 14px;
+        padding: 10px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttons > button{
+        margin: 10px;
+        font-size: large;
+        background: rgb(9, 52, 68);
+        border: none;
+        color: antiquewhite;
+        padding: 14px;
+        width: 190px;
+        border-radius: 10px;
+    }   
+}
